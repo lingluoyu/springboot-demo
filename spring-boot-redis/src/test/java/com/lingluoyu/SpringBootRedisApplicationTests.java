@@ -1,13 +1,13 @@
-package com.lingluoyu.springbootdemo;
+package com.lingluoyu;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringbootDemoApplicationTests {
+class SpringBootRedisApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+    @Test
+    void contextLoads() {
+    }
 
 }
