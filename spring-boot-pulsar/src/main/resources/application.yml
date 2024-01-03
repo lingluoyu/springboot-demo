@@ -1,0 +1,9 @@
+spring:
+  pulsar:
+    client:
+      service-url: pulsar://localhost:6650
+    defaults:
+      type-mappings:
+        - message-type: com.lingluoyu.model.User
+          schema-info:
+            schema-type: JSON
