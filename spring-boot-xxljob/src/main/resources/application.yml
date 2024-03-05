@@ -1,0 +1,6 @@
+xxl:
+  job:
+    admin:
+      addresses: http://127.0.0.1:9999/xxl-job-admin
+    executor:
+      appname: spring-boot-xxljob
